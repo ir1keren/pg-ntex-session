@@ -6,6 +6,7 @@ description = "Save session on PostgreSQL database with Diesel, inspired by ntex
 keywords = ["network", "diesel", "ntex", "session", "postgres"]
 repository = "https://github.com/ir1keren/pg-ntex-session.git"
 categories = ["network-programming", "web-programming"]
+license = "MIT OR Apache-2.0"
 
 [dependencies]
 anyhow = "1.0.98"
