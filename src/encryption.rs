@@ -17,7 +17,7 @@ pub trait StateEncryption {
     fn decrypt(&self,encoded_text:impl AsRef<[u8]>)->anyhow::Result<String>;
 }
 
-/// Simple encryption and decryption, implements [*StateEncryption*](https://docs.rs/pg-ntex-session/0.1.0/encryption/trait.StateEncryption.html) trait
+/// Simple encryption and decryption, implements [*StateEncryption*](./trait.StateEncryption.html) trait
 /// 
 /// Based on [*simple_crypt*](https://docs.rs/simple_crypt/0.2.3/simple_crypt/index.html) crate.
 #[derive(Debug,Clone)]
